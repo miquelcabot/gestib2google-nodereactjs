@@ -1,0 +1,32 @@
+{
+  "name": "g2g-backend",
+  "version": "1.0.0",
+  "description": "Backend de la conversió de fitxer XML del GestIB al domini de Google",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miquelcabot/gestib2google-mern.git"
+  },
+  "keywords": [
+    "server",
+    "webserver",
+    "node",
+    "express",
+    "gestib",
+    "google",
+    "xml"
+  ],
+  "author": "Miquel A. Cabot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miquelcabot/gestib2google-mern/issues"
+  },
+  "homepage": "https://github.com/miquelcabot/gestib2google-mern#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
