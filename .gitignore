@@ -22,6 +22,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-client_secret.json
 package-lock.json
-exportacioDadesCentre.xml
+client_secret*.json
+exportacioDadesCentre*.xml
