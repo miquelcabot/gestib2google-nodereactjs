@@ -1,7 +1,7 @@
 {
-  "name": "gestib2google-frontend",
+  "name": "gestib2google-nodereactjs",
   "version": "1.0.0",
-  "description": "Frontend de la conversió de fitxer XML del GestIB al domini de Google",
+  "description": "Conversió de fitxer XML del GestIB al domini de Google, amb NodeJS i ReactJS",
   "main": "app.js",
   "scripts": {
     "start": "react-scripts start",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/miquelcabot/gestib2google-mern.git"
+    "url": "git+https://github.com/miquelcabot/gestib2google-nodereactjs.git"
   },
   "keywords": [
     "server",
@@ -25,13 +25,16 @@
   "author": "Miquel A. Cabot",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/miquelcabot/gestib2google-mern/issues"
+    "url": "https://github.com/miquelcabot/gestib2google-nodereactjs/issues"
   },
-  "homepage": "https://github.com/miquelcabot/gestib2google-mern#readme",
+  "homepage": "https://github.com/miquelcabot/gestib2google-nodereactjs#readme",
   "dependencies": {
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "google-auth-library": "^5.3.0",
+    "googleapis": "^43.0.0",
+    "xml2js": "^0.4.22"
   },
   "eslintConfig": {
     "extends": "react-app"

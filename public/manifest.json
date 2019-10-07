@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "GestIB to Google",
+  "name": "Conversió de fitxer XML del GestIB al domini de Google amb NodeJS i ReactJS",
   "icons": [
     {
       "src": "favicon.ico",

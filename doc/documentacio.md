@@ -1,6 +1,5 @@
-* Setting up a development environment with Docker: [https://medium.com/codebase/mern-ep01-setting-up-a-development-environment-with-docker-1bb0b6e4d464](https://medium.com/codebase/mern-ep01-setting-up-a-development-environment-with-docker-1bb0b6e4d464)
-* mern-docker-starter at GitHub: [https://github.com/joshdcuneo/mern-docker-starter](https://github.com/joshdcuneo/mern-docker-starter)
-* Learn The MERN Stack youtube videos from Travery Media: [https://www.youtube.com/watch?v=PBTYxXADG_k&list=PLillGF-RfqbbiTGgA77tGO426V3hRF9iE](https://www.youtube.com/watch?v=PBTYxXADG_k&list=PLillGF-RfqbbiTGgA77tGO426V3hRF9iE)
+* Run a React App in a Docker Container: [https://dev.to/peterj/run-a-react-app-in-a-docker-container-kjn](https://dev.to/peterj/run-a-react-app-in-a-docker-container-kjn)
+* eact JS Crash Course - 2019, youtube videos from Travery Media: [https://www.youtube.com/watch?v=sBws8MSXN7A](https://www.youtube.com/watch?v=sBws8MSXN7A)
 * Google Directory API: Getting Started - Node.js Quickstart: [https://developers.google.com/admin-sdk/directory/v1/quickstart/nodejs](https://developers.google.com/admin-sdk/directory/v1/quickstart/nodejs)
 * Authenticating Users with Node.js [https://cloud.google.com/nodejs/getting-started/authenticate-users](https://cloud.google.com/nodejs/getting-started/authenticate-users)
 * Google's officially supported Node.js client library for accessing Google APIs [https://github.com/google/google-api-nodejs-client](https://github.com/google/google-api-nodejs-client)
