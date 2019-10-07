@@ -4,7 +4,7 @@ services:
     container_name: g2g-backend
     build: ./g2g-backend/
     ports:
-      - "6000:3000"
+      - "3001:3001"
     volumes:
       - ./g2g-backend:/usr/src/app
   frontend:
