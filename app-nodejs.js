@@ -33,6 +33,6 @@ app.get('/usersgestib', function(req, res) {
 // Escoltam les peticions
 var server = app.listen(app.get('port'), app.get('ip'), function() {
     var port = server.address().port;
-    console.log('Servidor g2g-backend executant-se a http://%s:%s', app.get('ip'), port);
+    console.log('Servidor gestib2google executant-se a http://%s:%s', app.get('ip'), port);
     console.log('Pitja CTRL+C per aturar');
 });
