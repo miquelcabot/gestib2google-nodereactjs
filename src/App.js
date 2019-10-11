@@ -6,6 +6,9 @@ import Footer from './components/Footer';
 import LogoutModal from './components/LogoutModal';
 import Home from './pages/Home';
 import UsuarisDomini from './pages/UsuarisDomini';
+import FullCalcul from './pages/FullCalcul';
+import Csv from './pages/Csv';
+import ImportarXml from './pages/ImportarXml';
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
                 <Switch>
                     <Route exact path='/' component={Home}/>
                     <Route exact path='/usuarisdomini' component={UsuarisDomini}/>
+                    <Route exact path='/fullcalcul' component={FullCalcul}/>
+                    <Route exact path='/csv' component={Csv}/>
+                    <Route exact path='/importarxml' component={ImportarXml}/>
                 </Switch>
             </div>
             <Footer />

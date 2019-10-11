@@ -1,44 +1,45 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class NavigationBar extends Component {
   render() {
       return (
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-                <a class="navbar-brand" href="index.html">GestIB to Google</a>
+                <Link class="navbar-brand" to="/">GestIB to Google</Link>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
                     <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Inici">
-                        <a class="nav-link" id="homelink">
+                        <Link class="nav-link" id="homelink" to="/">
                         <i class="fa fa-fw fa-home"></i>
                         <span class="nav-link-text">Inici</span>
-                        </a>
+                        </Link>
                     </li>
                     <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Usuaris del domini">
-                        <a class="nav-link" id="usuarisdominilink">
+                        <Link class="nav-link" id="usuarisdominilink" to="/usuarisdomini">
                         <i class="fa fa-fw fa-users"></i>
                         <span class="nav-link-text">Usuaris del domini</span>
-                        </a>
+                        </Link>
                     </li>
                     <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Exportar a un full de càlcul">
-                        <a class="nav-link" id="fullcalcullink">
+                        <Link class="nav-link" id="fullcalcullink" to="/fullcalcul">
                         <i class="fa fa-fw fa-table"></i>
                         <span class="nav-link-text">Exportar a un full de càlcul</span>
-                        </a>
+                        </Link>
                     </li>
                     <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Exportar a CSV">
-                        <a class="nav-link" id="csvlink">
+                        <Link class="nav-link" id="csvlink" to="/csv">
                         <i class="fa fa-fw fa-file-text"></i>
                         <span class="nav-link-text">Exportar a CSV</span>
-                        </a>
+                        </Link>
                     </li>
                     <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Importar XML">
-                        <a class="nav-link" id="xmllink">
+                        <Link class="nav-link" id="xmllink" to="/importarxml">
                         <i class="fa fa-fw fa-file-o"></i>
                         <span class="nav-link-text">Importar XML</span>
-                        </a>
+                        </Link>
                     </li>
                     </ul>
                     <ul class="navbar-nav sidenav-toggler">
