@@ -22,7 +22,7 @@ var TOKEN_PATH = TOKEN_DIR + 'admin-directory_v1-nodejs.json';
  */
 function getDomainAuthorization(callback) {
   var service = google.admin('directory_v1');
-/*
+
   // Load client secrets from a local file.
   fs.readFile('client_secret.json', function processClientSecrets(err, content) {
     if (err) {
@@ -47,7 +47,7 @@ function getDomainAuthorization(callback) {
         callback(service, oauth2Client);
       }
     });
-  });*/
+  });
 }
 
 /**
