@@ -10,6 +10,11 @@ import FullCalcul from './pages/FullCalcul';
 import Csv from './pages/Csv';
 import ImportarXml from './pages/ImportarXml';
 
+//var domainRead = require('./api/domainRead');
+//var domainAuth = require('./api/domainAuth');
+//import domainRead from './api/domainRead';
+import domainAuth from './api/domainAuth';
+
 class App extends Component {
     state = {
         loading: true,
@@ -19,7 +24,10 @@ class App extends Component {
 
     componentDidMount = async () => {
         try {
-            
+            /*domainRead.getDomainGroups("cifpfbmoll.eu", function(domainusers) {
+                console.log(domainusers);
+            });*/
+
             this.setState({ 
                 domaingroups: []
             });
