@@ -4,55 +4,55 @@ import { Link } from 'react-router-dom';
 class NavigationBar extends Component {
   render() {
       return (
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
                 <Link className="navbar-brand" to="/">GestIB to Google</Link>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
-                    <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Inici">
+                <div className="collapse navbar-collapse" id="navbarResponsive">
+                    <ul className="navbar-nav navbar-sidenav" id="exampleAccordion">
+                    <li className="nav-item" data-toggle="tooltip" data-placement="right" title="Inici">
                         <Link className="nav-link" id="homelink" to="/">
-                        <i class="fa fa-fw fa-home"></i>
-                        <span class="nav-link-text">Inici</span>
+                        <i className="fa fa-fw fa-home"></i>
+                        <span className="nav-link-text">Inici</span>
                         </Link>
                     </li>
-                    <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Usuaris del domini">
+                    <li className="nav-item" data-toggle="tooltip" data-placement="right" title="Usuaris del domini">
                         <Link className="nav-link" id="usuarisdominilink" to="/usuarisdomini">
-                        <i class="fa fa-fw fa-users"></i>
-                        <span class="nav-link-text">Usuaris del domini</span>
+                        <i className="fa fa-fw fa-users"></i>
+                        <span className="nav-link-text">Usuaris del domini</span>
                         </Link>
                     </li>
-                    <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Exportar a un full de càlcul">
+                    <li className="nav-item" data-toggle="tooltip" data-placement="right" title="Exportar a un full de càlcul">
                         <Link className="nav-link" id="fullcalcullink" to="/fullcalcul">
-                        <i class="fa fa-fw fa-table"></i>
-                        <span class="nav-link-text">Exportar a un full de càlcul</span>
+                        <i className="fa fa-fw fa-table"></i>
+                        <span className="nav-link-text">Exportar a un full de càlcul</span>
                         </Link>
                     </li>
-                    <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Exportar a CSV">
+                    <li className="nav-item" data-toggle="tooltip" data-placement="right" title="Exportar a CSV">
                         <Link className="nav-link" id="csvlink" to="/csv">
-                        <i class="fa fa-fw fa-file-text"></i>
-                        <span class="nav-link-text">Exportar a CSV</span>
+                        <i className="fa fa-fw fa-file-text"></i>
+                        <span className="nav-link-text">Exportar a CSV</span>
                         </Link>
                     </li>
-                    <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Importar XML">
+                    <li className="nav-item" data-toggle="tooltip" data-placement="right" title="Importar XML">
                         <Link className="nav-link" id="xmllink" to="/importarxml">
-                        <i class="fa fa-fw fa-file-o"></i>
-                        <span class="nav-link-text">Importar XML</span>
+                        <i className="fa fa-fw fa-file-o"></i>
+                        <span className="nav-link-text">Importar XML</span>
                         </Link>
                     </li>
                     </ul>
-                    <ul class="navbar-nav sidenav-toggler">
-                    <li class="nav-item">
-                        <a class="nav-link text-center" id="sidenavToggler">
-                        <i class="fa fa-fw fa-angle-left"></i>
+                    <ul className="navbar-nav sidenav-toggler">
+                    <li className="nav-item">
+                        <a className="nav-link text-center" id="sidenavToggler">
+                        <i className="fa fa-fw fa-angle-left"></i>
                         </a>
                     </li>
                     </ul>
-                    <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="modal" data-target="#exampleModal">
-                        <i class="fa fa-fw fa-sign-out"></i>Sortir</a>
+                    <ul className="navbar-nav ml-auto">
+                    <li className="nav-item">
+                        <a className="nav-link" data-toggle="modal" data-target="#exampleModal">
+                        <i className="fa fa-fw fa-sign-out"></i>Sortir</a>
                     </li>
                     </ul>
                 </div>

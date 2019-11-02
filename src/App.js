@@ -48,8 +48,8 @@ class App extends Component {
         return (
             <div>
                 <NavigationBar />
-                <div class="content-wrapper">
-                    <div class="container-fluid">
+                <div className="content-wrapper">
+                    <div className="container-fluid">
                         <Switch>
                             <Route exact path='/' component={Home}/>
                             <Route exact path='/usuarisdomini' component={UsuarisDomini}/>
@@ -60,8 +60,8 @@ class App extends Component {
                     </div>
                     <Footer />
                 </div>
-                <a class="scroll-to-top rounded" href="#page-top">
-                    <i class="fa fa-angle-up"></i>
+                <a className="scroll-to-top rounded" href="#page-top">
+                    <i className="fa fa-angle-up"></i>
                 </a>
                 <LogoutModal />
             </div>
