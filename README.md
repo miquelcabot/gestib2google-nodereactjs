@@ -17,6 +17,26 @@ Per executar:
 $ npm start
 ```
 
+# Execució amb docker
+Requisits per executar aquesta aplicació:
+* [Docker](https://docs.docker.com/install/)
+* Crear credencials d'autorització (authorization credentials) seguint [aquest enllaç](https://console.developers.google.com) i copiar el fitxer generat **client_secret.json** a la carpeta arrel de l'aplicació.
+
+Executar l'entorn de desenvolupament:
+```
+$ docker-compose up -d
+```
+
+Executar l'entorn de producció:
+```
+$ docker-compose -f docker-compose-prod.yml up -d
+```
+
+Aturar el contenidor
+```
+$ docker-compose stop
+```
+
 ## Veure l'aplicació web
 Ver veure l'aplicació web s'ha d'obrir la URL [http://localhost:3000](http://localhost:3000)
 
